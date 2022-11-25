@@ -1,0 +1,21 @@
+.Card-Container{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.FrontCard-Box{
+    position: relative;
+}
+
+.Card-Front{
+    margin-left: -180px;
+}
+
+.Card-Logo{
+    position: absolute;
+    left: -150px;
+    top: 25px;
+}

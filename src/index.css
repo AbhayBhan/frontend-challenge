@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root{
+    background-image: url(./assets/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media screen and (max-width: 370px) {
+    :root{
+        background-image: url(./assets/bg-main-mobile.png);
+    }
+}
