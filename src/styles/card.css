@@ -10,6 +10,10 @@
     position: relative;
 }
 
+.RearCard-Box{
+    position: relative;
+}
+
 .Card-Front{
     margin-left: -180px;
 }
@@ -18,4 +22,43 @@
     position: absolute;
     left: -150px;
     top: 25px;
+}
+
+.Card-Details{
+    position: absolute;
+    top : 110px;
+    left: -150px
+}
+
+.Number-Display{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.Person-Info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Number-Display > h1 {
+    color: whitesmoke;
+    font-weight: 200;
+}
+
+.Person-Info > h2{
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.CVV-Display{
+    position: absolute;
+    top: 95px;
+    right: 50px;
+}
+
+.CVV-Display > h4 {
+    color: whitesmoke;
 }
